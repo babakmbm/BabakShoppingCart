@@ -1,0 +1,17 @@
+﻿@model MusicStoreMVC3.Models.Album
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete Confirmation</h2>
+
+<p>Are you sure you want to delete the album title <strong>@Model.Title </strong>?</p>
+@using (Html.BeginForm()) {
+    <p>
+        <input style="width:150px; height:40px;" type="submit" value="YES" />
+    </p>
+    <p>
+        @Html.ActionLink("No I've Changed my mind!", "Index")
+    </p>
+}
