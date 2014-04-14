@@ -1,0 +1,37 @@
+﻿@model MusicStoreMVC3.Models.Album
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Album</legend>
+
+    <h4 class="display-label">Artist</h4>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Artist.Name)
+    </div><br />
+
+    <h4 class="display-label">Genre</h4>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Genre.Name)
+    </div><br />
+
+    <h4 class="display-label">Title</h4>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div><br />
+
+    <h4 class="display-label">Price</h4>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div><br />
+
+    
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AlbumId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

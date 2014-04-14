@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MusicStoreMVC3.Models.Album>
+
+@{
+    ViewBag.Title = "Search Results";
+}
+@using(Html.BeginForm("Search","Home", FormMethod.Get))
+{
+    <input type="text" name="sq" style="height:25px;" />
+    <input type="submit" value="Search" style="width:90px; cursor:pointer;" />
+}
+<br />
+<h2>Your Results:</h2>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Artist</th>
+        <th>Genre</th>
+        <th>Price</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td style="padding:15px;">
+            @Html.ActionLink(item.Title, "Details", "Store", 
+            new { id = item.AlbumId }, null)
+        </td>
+        
+        <td style="padding:15px;">@Html.DisplayFor(modelItem => item.Artist.Name)</td>
+
+        <td style="padding:15px;">
+            @Html.ActionLink(item.Genre.Name, "Browse", "Store", 
+            new { Genre = item.Genre.Name }, null)
+        </td>
+        
+        <td style="padding:15px;">@String.Format("{0:c}",item.Price)</td>
+    </tr>
+}
+
+</table>
