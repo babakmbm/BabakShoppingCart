@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@9 @3 @10 Member=(Name=ChangePassword OverloadingParameters=[@18]))" Category="CodeSchema_Method" Bounds="338.423026449962,318.278528080535,131.416666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="ChangePassword" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @10 Member=ChangePassword)" Category="CodeSchema_Method" Bounds="201.461709433915,523.382313089969,131.416666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="ChangePassword" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @10 Member=ChangePasswordSuccess)" Category="CodeSchema_Method" Bounds="215.780024078706,392.834597595213,172.13,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="ChangePasswordSuccess" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @10 Member=LogOff)" Category="CodeSchema_Method" Bounds="311.996654759719,579.382313089969,77.3066666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="LogOff" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @10 Member=LogOn)" Category="CodeSchema_Method" Bounds="234.561498906287,466.330397062854,76.5833333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="LogOn" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @10 Member=Register)" Category="CodeSchema_Method" Bounds="340.311211495411,673.489395477645,84.0366666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Register" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @19 Member=(Name=Complete @53))" Category="CodeSchema_Method" Bounds="939.124664687816,890.617575450213,92.3766666666668,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Complete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @19 Member=AddressAndPayment)" Category="CodeSchema_Method" Bounds="729.992137451172,752.916981152344,151.21,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="AddressAndPayment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @19 Member=PromoCode)" Category="CodeSchema_Field" Bounds="932.611231282552,769.764079638672,104.093333333333,26" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Constant" Icon="Microsoft.VisualStudio.Constant.Private" Label="PromoCode" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @41 Member=(Name=Browse OverloadingParameters=[(@46 Namespace=System Type=String)]))" Category="CodeSchema_Method" Bounds="620.672171490305,1463.59499371179,79.1266666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Browse" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @41 Member=(Name=Details @53))" Category="CodeSchema_Method" Bounds="497.01608629674,1304.61682939314,76.77,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Details" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @41 Member=Index)" Category="CodeSchema_Method" Bounds="534.919130584521,1407.59499371179,69.8333333333335,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Index" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @3 @43 Member=(Name=Create OverloadingParameters=[@13]))" Category="CodeSchema_Method" Bounds="393.126108880702,877.198856494579,75.3299999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Create" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=(Name=Delete @53))" Category="CodeSchema_Method" Bounds="498.45610887742,838.537963867188,75.2166666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Delete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=(Name=DeleteConfirmed @53))" Category="CodeSchema_Method" Bounds="542.329948482259,1046.42670915582,130.983333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="DeleteConfirmed" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=(Name=Details @53))" Category="CodeSchema_Method" Bounds="347.575556030273,991.125610351563,76.77,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Details" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=(Name=Dispose OverloadingParameters=[(@46 Namespace=System Type=Boolean)]))" Category="CodeSchema_Method" Bounds="323.460572306315,935.125510351563,82.8666666666668,26" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Protected" IsOverloaded="True" Label="Dispose" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=(Name=Edit @53))" Category="CodeSchema_Method" Bounds="439.660469360352,1047.12571035156,61.11,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Edit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=(Name=Edit OverloadingParameters=[@13]))" Category="CodeSchema_Method" Bounds="703.506108877421,890.109741210938,61.1100000000001,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Edit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=Create)" Category="CodeSchema_Method" Bounds="705.485299072266,946.109974316406,75.3299999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Create" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 @43 Member=Index)" Category="CodeSchema_Method" Bounds="603.672775544087,858.390502929688,69.8333333333335,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Index" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @3 Type=HomeController)" Category="CodeSchema_Class" Bounds="773.831465772617,1249.39984154873,125.946666666667,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="HomeController" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="(@9 @5 @12 Member=AlbumArtUrl)" Category="CodeSchema_Property" Bounds="2590.68491441452,355.435300204158,107.13,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="AlbumArtUrl" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @5 @12 Member=ArtistId)" Category="CodeSchema_Property" Bounds="2429.07993555445,268.156834852618,79.3066666666673,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="ArtistId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @5 @12 Member=GenreId)" Category="CodeSchema_Property" Bounds="2589.91690330428,467.488688769288,83.0100000000002,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="GenreId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @12 Member=Price)" Category="CodeSchema_Property" Bounds="2356.2986890965,414.164973596962,66.6199999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Price" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @12 Member=Title)" Category="CodeSchema_Property" Bounds="2497.24148108119,324.156834852618,63.4433333333327,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Title" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @5 @15 Member=Album)" Category="CodeSchema_Property" Bounds="1998.34539469401,693.691300887867,75.8266666666668,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Property Assignment Virtual" Icon="Microsoft.VisualStudio.Property.Public" Label="Album" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @15 Member=RecordId)" Category="CodeSchema_Property" Bounds="2146.05563639323,548.700278417969,88.5266666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="RecordId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@9 @5 @17 Member=ConfirmPassword)" Category="CodeSchema_Property" Bounds="2774.26568847656,820.169065657552,133.38,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="ConfirmPassword" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @17 Member=NewPassword)" Category="CodeSchema_Property" Bounds="2655.77317708333,764.168965657552,114.883333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="NewPassword" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @17 Member=OldPassword)" Category="CodeSchema_Property" Bounds="2752.54317220052,878.161437988281,109.976666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OldPassword" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @21 Member=Albums)" Category="CodeSchema_Property" Bounds="2824.67302654461,647.980860622543,80.9200000000001,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Albums" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @21 Member=Description)" Category="CodeSchema_Property" Bounds="2715.62430340008,534.01628049559,101.253333333334,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Description" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @21 Member=GenreId)" Category="CodeSchema_Property" Bounds="2846.87763673341,567.521346413559,83.0100000000002,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="GenreId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @21 Member=Name)" Category="CodeSchema_Property" Bounds="2759.24749186198,708.168865657552,72.6966666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @23 Member=Password)" Category="CodeSchema_Property" Bounds="1893.43243234621,1139.70122730823,90.9566666666669,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Password" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @23 Member=RememberMe)" Category="CodeSchema_Property" Bounds="1938.22325434669,1195.70307123143,115.96,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="RememberMe" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @23 Member=UserName)" Category="CodeSchema_Property" Bounds="2037.02542590352,1139.70307123143,96.4833333333336,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="UserName" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @25 Member=Albums)" Category="CodeSchema_Property" Bounds="2135.11592773438,188.015316418457,80.9200000000001,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Albums" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @25 Member=Artists)" Category="CodeSchema_Property" Bounds="2268.63254014757,157.605651855469,74.1399999999994,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Artists" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @25 Member=Genres)" Category="CodeSchema_Property" Bounds="2374.6395570242,124.69110632933,77.8433333333332,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Genres" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @25 Member=OrderDetails)" Category="CodeSchema_Property" Bounds="2131.1258734809,132.015216418457,107.506666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderDetails" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @25 Member=Orders)" Category="CodeSchema_Property" Bounds="2372.77254014757,189.229291216899,76.8299999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Orders" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=Address)" Category="CodeSchema_Property" Bounds="3047.47887478127,1009.82607553473,83.5100000000002,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Address" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=City)" Category="CodeSchema_Property" Bounds="2949.77129848949,1121.27548669467,61.21,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="City" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=Country)" Category="CodeSchema_Property" Bounds="3191.29938101572,896.784362681005,83.0866666666661,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Country" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=Email)" Category="CodeSchema_Property" Bounds="3047.95933429567,702.242226090907,69.3266666666668,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Email" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=FirstName)" Category="CodeSchema_Property" Bounds="3096.43729714503,1067.02979941323,94.7966666666671,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="FirstName" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=LastName)" Category="CodeSchema_Property" Bounds="3161.09025226057,1011.02979941323,93.6133333333328,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="LastName" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=OrderDate)" Category="CodeSchema_Property" Bounds="3064.69838305562,896.786110203455,96.6000000000004,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderDate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=OrderDetails)" Category="CodeSchema_Property" Bounds="3121.60870559553,840.784262681005,107.506666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderDetails" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=OrderId)" Category="CodeSchema_Property" Bounds="3022.50419101718,1179.02979941323,81.9966666666669,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=Phone)" Category="CodeSchema_Property" Bounds="3158.21189722177,775.773221354125,74.6066666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Phone" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=PostalCode)" Category="CodeSchema_Property" Bounds="3155.06670549661,952.786110203455,100.726666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="PostalCode" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=State)" Category="CodeSchema_Property" Bounds="3055.28395579494,775.773221354125,67.8899999999994,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="State" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=Total)" Category="CodeSchema_Property" Bounds="2947.18832928957,734.233128945852,67.3966666666665,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Total" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @27 Member=UserName)" Category="CodeSchema_Property" Bounds="3040.98457593286,1123.02979941323,96.4833333333336,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="UserName" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @29 Member=Album)" Category="CodeSchema_Property" Bounds="2361.31982096354,1249.80107539062,75.8266666666668,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Property Assignment Virtual" Icon="Microsoft.VisualStudio.Property.Public" Label="Album" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @29 Member=AlbumId)" Category="CodeSchema_Property" Bounds="2346.09181491335,1054.4756243239,86.0866666666661,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="AlbumId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @29 Member=Order)" Category="CodeSchema_Property" Bounds="2181.77177649897,1314.90951700722,71.7366666666667,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Property Assignment Virtual" Icon="Microsoft.VisualStudio.Property.Public" Label="Order" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @29 Member=OrderDetailId)" Category="CodeSchema_Property" Bounds="2283.50854316564,1314.90951700722,112.673333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderDetailId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @29 Member=OrderId)" Category="CodeSchema_Property" Bounds="2142.299443758,1247.19962867815,81.996666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @29 Member=Quantity)" Category="CodeSchema_Property" Bounds="2455.14029785156,1133.24669306641,86.5799999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Quantity" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @29 Member=UnitPrice)" Category="CodeSchema_Property" Bounds="2437.0717985026,1193.80097539062,88.626666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="UnitPrice" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @31 Member=ConfirmPassword)" Category="CodeSchema_Property" Bounds="2739.89510395505,1093.463123273,133.38,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="ConfirmPassword" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @31 Member=Email)" Category="CodeSchema_Property" Bounds="2610.73540477187,1172.78813126442,69.3266666666659,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Email" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @31 Member=Password)" Category="CodeSchema_Property" Bounds="2710.06217143854,1153.2364601538,90.9566666666669,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Password" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @31 Member=UserName)" Category="CodeSchema_Property" Bounds="2733.81857240485,989.322465850886,96.4833333333336,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="UserName" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 @34 Member=CartSessionKey)" Category="CodeSchema_Field" Bounds="1591.82896321615,219.755656787109,121.383333333333,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Constant" Icon="Microsoft.VisualStudio.Constant.Public" Label="CartSessionKey" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="(@9 @5 @34 Member=storeDB)" Category="CodeSchema_Field" Bounds="1678.2273030599,300.195491381836,82.9333333333334,26" CodeSchemaProperty_IsPrivate="True" Icon="Microsoft.VisualStudio.Field.Private" Label="storeDB" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="(@9 @5 Type=Artist Member=ArtistId)" Category="CodeSchema_Property" Bounds="2218.00194010417,604.700378417969,79.3066666666673,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="ArtistId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @5 Type=Artist Member=Name)" Category="CodeSchema_Property" Bounds="2170.68853190104,660.700478417969,72.6966666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @7 @38 Member=CartCount)" Category="CodeSchema_Property" Bounds="1513.3838001393,1327.78496449588,94.8833333333332,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="CartCount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @7 @38 Member=CartTotal)" Category="CodeSchema_Property" Bounds="1461.46999609417,1264.11243640737,89.1733333333332,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="CartTotal" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @7 @38 Member=DeleteId)" Category="CodeSchema_Property" Bounds="1737.12563734662,1279.16089997205,85.4766666666665,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="DeleteId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @7 @38 Member=ItemCount)" Category="CodeSchema_Property" Bounds="1563.70098702171,1383.78496449588,96.98,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="ItemCount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @7 @38 Member=Message)" Category="CodeSchema_Property" Bounds="1690.68108702171,1354.29490719039,87.6900000000001,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Message" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @7 Type=ShoppingCartViewModel Member=CartItems)" Category="CodeSchema_Property" Bounds="1304.08418346438,1322.01857697541,91.7433333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="CartItems" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@9 @7 Type=ShoppingCartViewModel Member=CartTotal)" Category="CodeSchema_Property" Bounds="1267.59906832729,1266.01857697541,89.1733333333332,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="CartTotal" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@11" Category="CodeSchema_Class" Bounds="496.741910388732,557.004802676025,137.286666666667,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="AccountController" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_Class" Bounds="2450.841734652,511.414101056566,75.8266666666668,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Album" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@14" Category="CodeSchema_Class" Bounds="2235.28629019622,752.273937095416,69.0466666666671,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Artist" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="2070.20154882954,619.763109877935,62.7766666666666,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Cart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@18" Category="CodeSchema_Class" Bounds="2526.58210449219,879.941955566406,165.473333333333,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="ChangePasswordModel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@2" Category="CodeSchema_Namespace" Bounds="1488.0807537097,905.174585330253,132.16,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="MusicStoreMVC3" UseManualLocation="True">
+      <Category Ref="Category6" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_Class" Bounds="797.656250864382,826.617475450213,145.69,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="CheckOutController" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@22" Category="CodeSchema_Class" Bounds="2720.26160260107,635.895823327161,72.75,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Genre" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_Class" Bounds="1969.75751383064,1017.62276774368,110.64,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="LogOnModel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_Class" Bounds="2223.73614420573,245.2293912169,138.206666666667,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="MusicStoreEntities" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_Class" Bounds="2892.51983886719,902.625,71.7366666666667,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Order" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@30" Category="CodeSchema_Class" Bounds="2179.15437041789,1079.80467365576,102.413333333333,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="OrderDetail" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_Class" Bounds="2585.72513907151,1029.88532995601,118.093333333332,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="RegisterModel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_Class" Bounds="1538.72320455435,527.357030324091,113.84,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="ShoppingCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_Class" Bounds="1071.16402192228,825.764179638672,166.623333333333,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="ShoppingCartController" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category8" />
+    </Node>
+    <Node Id="@39" Category="CodeSchema_Class" Bounds="1545.18138417984,1189.97232597899,216.05,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="ShoppingCartRemoveViewModel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category1" />
+      <Category Ref="Category3" />
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="818.798197617053,1097.1969668264,192.636666666667,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="MusicStoreMVC3‎.Controllers">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@40" Category="CodeSchema_Class" Bounds="1330.04502784503,1193.17498163431,173.206666666667,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="ShoppingCartViewModel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category1" />
+      <Category Ref="Category3" />
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="@42" Category="CodeSchema_Class" Bounds="616.123292800755,1313.69961648931,121.703333333333,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="StoreController" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@44" Category="CodeSchema_Class" Bounds="464.450666894653,945.028982194653,169,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="StoreManagerController" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="@45" Category="CodeSchema_Method" Bounds="1747.53819285996,457.392374554501,97.9666666666672,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="AddToCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@48" Category="CodeSchema_Method" Bounds="1719.28936842921,379.129984832866,81.3533333333335,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@49" Category="CodeSchema_Method" Bounds="867.939769287109,696.916881152344,151.21,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="AddressAndPayment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@51" Category="CodeSchema_Method" Bounds="1003.6886124504,370.916572163045,81.3533333333335,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_Method" Bounds="1485.50510091146,275.755756787109,91.6133333333337,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetCartId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@54" Category="CodeSchema_Method" Bounds="1596.94410526528,671.691404042955,97.9666666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="AddToCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="@55" Category="CodeSchema_Method" Bounds="1006.50193212896,250.791066562987,133.02,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="RemoveFromCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@56" Category="CodeSchema_Method" Bounds="841.276197916257,510.503070435233,133.02,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="RemoveFromCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="@58" Category="CodeSchema_Method" Bounds="499.839793116629,323.084326980306,139.116666666667,26" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="ErrorCodeToString" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@59" Category="CodeSchema_Method" Bounds="1259.48412272135,723.814625195312,106.066666666668,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="CreateOrder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_Namespace" Bounds="2231.87156270995,920.277445111692,173.91,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="MusicStoreMVC3‎.Models" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@60" Category="CodeSchema_Method" Bounds="707.850722457754,287.805778392442,84.0366666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Register" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@61" Category="CodeSchema_Method" Bounds="860.134087305239,280.444881828985,104.15,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="MigrateCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@62" Category="CodeSchema_Method" Bounds="802.131444920585,406.683866213795,155.213333333333,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="MigrateShoppingCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@63" Category="CodeSchema_Method" Bounds="677.069395691741,435.782738037462,76.5833333333335,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="LogOn" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@64" Category="CodeSchema_Property" Bounds="2079.07214192708,449.529418945313,86.0866666666661,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="AlbumId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@65" Category="CodeSchema_Property" Bounds="1899.16084755682,564.656023770273,86.086666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="AlbumId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@66" Category="CodeSchema_Property" Bounds="2352.88478917582,636.341840154977,69.0466666666671,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Property Assignment Virtual" Icon="Microsoft.VisualStudio.Property.Public" Label="Artist" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@67" Category="CodeSchema_Property" Bounds="1856.60858166249,620.656123770274,73.0366666666669,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="CartId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@68" Category="CodeSchema_Property" Bounds="2090.66195118814,262.812153338475,67.8699999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Carts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@69" Category="CodeSchema_Method" Bounds="988.402533365886,586.584838867188,112.87,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="CartSummery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="@70" Category="CodeSchema_Property" Bounds="1905.65712472923,508.655923770273,73.1066666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Count" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@71" Category="CodeSchema_Property" Bounds="1941.81214192708,405.290951853842,107.260000000001,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="DateCreated" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@72" Category="CodeSchema_Method" Bounds="1442.05593181805,667.814525195313,96.1100000000006,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="EmptyCart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@73" Category="CodeSchema_Property" Bounds="2526.43018461316,653.673462776662,72.75,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Property Assignment Virtual" Icon="Microsoft.VisualStudio.Property.Public" Label="Genre" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@74" Category="CodeSchema_Method" Bounds="1283.85507906851,596.842564549359,110.32,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetCartItems" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@75" Category="CodeSchema_Method" Bounds="1220.80006614117,540.842564549359,91.6833333333334,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetCount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@76" Category="CodeSchema_Method" Bounds="1357.74194457916,193.030921438977,85.9733333333334,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetTotal" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@77" Category="CodeSchema_Method" Bounds="1131.27253336589,596.842590332031,69.8333333333335,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="Index" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="@78" Category="CodeSchema_Property" Bounds="1325.96434190395,351.676735600273,124.1,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Private" Label="ShoppingCartId" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category7" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_Namespace" Bounds="1419.7961368643,1079.68074957866,199.22,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="MusicStoreMVC3‎.ViewModels" UseManualLocation="True">
+      <Category Ref="Category1" />
+      <Category Ref="Category3" />
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="ThisIsThe" Category="Comment" Bounds="1631.95687858717,781.169763935083,187.033333333333,41.9200000000001" Label="This is the Main MusicStoreMvc NameSpace" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@11" Target="(@9 @3 @10 Member=(Name=ChangePassword OverloadingParameters=[@18]))" Category="Contains" Bounds="417.950243156375,351.736519331013,138.653811755384,205.268283345012" />
+    <Link Source="@11" Target="(@9 @3 @10 Member=ChangePassword)" Category="Contains" Bounds="341.821713540613,544.798969971049,154.920196848119,17.4665901956649" />
+    <Link Source="@11" Target="(@9 @3 @10 Member=ChangePasswordSuccess)" Category="Contains" Bounds="330.352791943907,423.593276339428,214.163726824826,133.411526336597" />
+    <Link Source="@11" Target="(@9 @3 @10 Member=LogOff)" Category="Contains" Bounds="398.254847343059,577.158108275587,98.4870630456733,10.2633136439918" />
+    <Link Source="@11" Target="(@9 @3 @10 Member=LogOn)" Category="Contains" Bounds="319.210152545373,493.69939299088,204.234733363241,63.3054096851448" />
+    <Link Source="@11" Target="(@9 @3 @10 Member=Register)" Category="Contains" Bounds="410.352117623941,583.004802676025,134.60360809598,85.6528727238722" />
+    <Link Source="@11" Target="@58" Category="Contains" Bounds="565.608257442038,358.083002964623,3.41248388748306,198.921799711402" />
+    <Link Source="@11" Target="@60" Category="Contains" Bounds="574.294226818419,321.229750144526,161.578150580382,235.775052531499" />
+    <Link Source="@11" Target="@62" Category="Contains" Bounds="592.570992949181,436.566508701202,251.8619428724,120.438293974823" />
+    <Link Source="@11" Target="@63" Category="Contains" Bounds="581.468830881595,467.440250109777,110.809175969501,89.5645525662478" />
+    <Link Source="@13" Target="(@9 @5 @12 Member=AlbumArtUrl)" Category="Contains" Bounds="2501.71473296886,387.809141591396,123.221451151615,123.60495946517" />
+    <Link Source="@13" Target="(@9 @5 @12 Member=ArtistId)" Category="Contains" Bounds="2470.54152853409,303.126503812145,17.143547206696,208.287597244421" />
+    <Link Source="@13" Target="(@9 @5 @12 Member=GenreId)" Category="Contains" Bounds="2526.24191968557,495.543675493244,56.2823819837267,17.3286722707372" />
+    <Link Source="@13" Target="(@9 @5 @12 Member=Price)" Category="Contains" Bounds="2409.28744792103,446.467162407304,66.2140006311561,64.9469386492622" />
+    <Link Source="@13" Target="(@9 @5 @12 Member=Title)" Category="Contains" Bounds="2491.54644183965,358.956270960632,32.7359077550673,152.457830095934" />
+    <Link Source="@13" Target="@64" Category="Contains" Bounds="2174.03328092746,471.292566634137,276.808453724543,46.7221857768731" />
+    <Link Source="@13" Target="@66" Category="Contains" Bounds="2403.6243478927,537.414101056566,74.5845411519185,91.938420581127" />
+    <Link Source="@13" Target="@73" Category="Contains" Bounds="2495.52194437591,537.414101056566,56.3608656233969,108.276139656525" />
+    <Link Source="@14" Target="(@9 @5 Type=Artist Member=ArtistId)" Category="Contains" Bounds="2259.46472065196,639.670007616931,9.27420598166509,112.603929478485" />
+    <Link Source="@14" Target="(@9 @5 Type=Artist Member=Name)" Category="Contains" Bounds="2221.03687133906,694.123811967897,39.8613725219402,58.1501251275187" />
+    <Link Source="@16" Target="(@9 @5 @15 Member=Album)" Category="Contains" Bounds="2053.70671325875,645.763109877935,36.394926162624,41.1841959436559" />
+    <Link Source="@16" Target="(@9 @5 @15 Member=RecordId)" Category="Contains" Bounds="2117.82168878569,580.326373819681,49.2407287332799,39.4367360582543" />
+    <Link Source="@16" Target="@65" Category="Contains" Bounds="1988.30990182271,593.596926330527,82.0040628544689,28.3526371362949" />
+    <Link Source="@16" Target="@67" Category="Contains" Bounds="1938.64516575101,632.89757125544,131.556383078531,0.56356138124454" />
+    <Link Source="@16" Target="@70" Category="Contains" Bounds="1968.2415592501,539.802823350053,114.700271550039,79.9602865278819" />
+    <Link Source="@16" Target="@71" Category="Contains" Bounds="2005.86831715735,439.357102641465,89.2875334940313,180.40600723647" />
+    <Link Source="@18" Target="(@9 @5 @17 Member=ConfirmPassword)" Category="Contains" Bounds="2659.69746172781,848.417813367509,122.165000406912,31.5241421988972" />
+    <Link Source="@18" Target="(@9 @5 @17 Member=NewPassword)" Category="Contains" Bounds="2620.98512740264,796.867225717059,74.552261021438,83.0747298493471" />
+    <Link Source="@18" Target="(@9 @5 @17 Member=OldPassword)" Category="Contains" Bounds="2692.05543782552,891.736233074803,51.4880974661428,0.462510458229303" />
+    <Link Source="@2" Target="@4" Category="Contains" Bounds="966.999395164665,931.174585330253,543.897782543413,163.432425761551" />
+    <Link Source="@2" Target="@6" Category="Contains" Bounds="1620.2407537097,919.479726690846,602.632563933128,11.9025527304675" />
+    <Link Source="@2" Target="@8" Category="Contains" Bounds="1523.75312849193,931.174585330253,27.8185475142081,139.679514904767" />
+    <Link Source="@20" Target="(@9 @3 @19 Member=(Name=Complete @53))" Category="Contains" Bounds="893.822350566382,852.617475450213,60.3084129898169,33.6180274037584" />
+    <Link Source="@20" Target="(@9 @3 @19 Member=AddressAndPayment)" Category="Contains" Bounds="822.993660595966,785.671235349963,36.0591802894866,40.9462401002497" />
+    <Link Source="@20" Target="(@9 @3 @19 Member=PromoCode)" Category="Contains" Bounds="896.604114042902,799.776298234426,53.8947366472364,26.8411772157865" />
+    <Link Source="@20" Target="@49" Category="Contains" Bounds="877.822464345599,730.7588139997,53.9847480386875,95.8586614505126" />
+    <Link Source="@22" Target="(@9 @5 @21 Member=Albums)" Category="Contains" Bounds="2793.01160260107,652.94750738864,22.7167410242728,2.53033835152701" />
+    <Link Source="@22" Target="(@9 @5 @21 Member=Description)" Category="Contains" Bounds="2757.86341196417,568.976470605524,6.31517603779139,66.9193527216373" />
+    <Link Source="@22" Target="(@9 @5 @21 Member=GenreId)" Category="Contains" Bounds="2781.68540035472,597.667149889152,73.6601776414618,38.2286734380087" />
+    <Link Source="@22" Target="(@9 @5 @21 Member=Name)" Category="Contains" Bounds="2763.64433158818,661.895823327161,20.6732152671279,38.3507694100447" />
+    <Link Source="@24" Target="(@9 @5 @23 Member=Password)" Category="Contains" Bounds="1953.27646352278,1043.62276774368,62.6252486966678,88.7255705336579" />
+    <Link Source="@24" Target="(@9 @5 @23 Member=RememberMe)" Category="Contains" Bounds="1999.75156173294,1043.62276774368,23.2181088048742,143.196325595186" />
+    <Link Source="@24" Target="(@9 @5 @23 Member=UserName)" Category="Contains" Bounds="2031.48693862121,1043.62276774368,43.3908630626672,88.0080878154638" />
+    <Link Source="@26" Target="(@9 @5 @25 Member=Albums)" Category="Contains" Bounds="2210.30875883886,217.961816844916,55.8864680882525,27.2675743719844" />
+    <Link Source="@26" Target="(@9 @5 @25 Member=Artists)" Category="Contains" Bounds="2294.74786235726,192.510217035778,7.73911320268326,52.7191741811221" />
+    <Link Source="@26" Target="(@9 @5 @25 Member=Genres)" Category="Contains" Bounds="2305.85926375418,157.050226177201,88.3133751880541,88.1791650396992" />
+    <Link Source="@26" Target="(@9 @5 @25 Member=OrderDetails)" Category="Contains" Bounds="2203.48695454841,164.528513212163,76.9558109895147,80.7008780047366" />
+    <Link Source="@26" Target="(@9 @5 @25 Member=Orders)" Category="Contains" Bounds="2320.31308587031,219.07872702146,55.2656235159561,26.1506641954398" />
+    <Link Source="@26" Target="@68" Category="Contains" Bounds="2167.48320111053,265.451272022907,56.2529430951959,5.87890671005664" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=Address)" Category="Contains" Bounds="2947.89351879448,928.625,114.345925164808,76.2097212670481" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=City)" Category="Contains" Bounds="2931.47915842229,928.625,43.7242793317901,183.894585912371" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=Country)" Category="Contains" Bounds="2964.25659179688,918.089538574219,230.979736328125,9.10687255859375" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=Email)" Category="Contains" Bounds="2938.39426404892,735.374226551297,128.732815449428,167.250773448703" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=FirstName)" Category="Contains" Bounds="2939.23999023438,928.625,155.244140625,135.671020507813" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=LastName)" Category="Contains" Bounds="2961.78577816467,928.577942681846,204.201192812699,79.1974834635373" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=OrderDate)" Category="Contains" Bounds="2964.25650553386,911.59826414374,91.4463756926516,2.89228481723546" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=OrderDetails)" Category="Contains" Bounds="2964.25650553386,868.870655271875,150.854881887905,37.7731346546855" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=OrderId)" Category="Contains" Bounds="2935.43823242188,928.625,115.353759765625,242.73876953125" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=Phone)" Category="Contains" Bounds="2955.76383689896,805.633898958047,204.2458354505,96.9911010419528" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=PostalCode)" Category="Contains" Bounds="2964.25650553386,922.119308759312,181.954190906173,32.9445665850701" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=State)" Category="Contains" Bounds="2944.87142698061,807.346560555217,120.807599416742,95.2784394447829" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=Total)" Category="Contains" Bounds="2932.44110166332,768.825247662588,41.7139198740992,133.799752337412" />
+    <Link Source="@28" Target="(@9 @5 @27 Member=UserName)" Category="Contains" Bounds="2937.87478465521,928.625,136.559577891255,187.134714426815" />
+    <Link Source="@30" Target="(@9 @5 @29 Member=Album)" Category="Contains" Bounds="2243.27506056597,1105.80467365576,136.701258225392,137.611361748532" />
+    <Link Source="@30" Target="(@9 @5 @29 Member=AlbumId)" Category="Contains" Bounds="2281.56770375122,1075.76010860946,55.6364931343483,8.8756250558547" />
+    <Link Source="@30" Target="(@9 @5 @29 Member=Order)" Category="Contains" Bounds="2220.82592773438,1105.8046875,12.002197265625,200.198486328125" />
+    <Link Source="@30" Target="(@9 @5 @29 Member=OrderDetailId)" Category="Contains" Bounds="2236.41490745758,1105.80467365576,93.5770587572283,200.946120231435" />
+    <Link Source="@30" Target="(@9 @5 @29 Member=OrderId)" Category="Contains" Bounds="2189.38865552943,1105.80467365576,37.3174184779573,132.730873054031" />
+    <Link Source="@30" Target="(@9 @5 @29 Member=Quantity)" Category="Contains" Bounds="2281.56054797334,1103.01175688084,164.753437458754,32.8450803253224" />
+    <Link Source="@30" Target="(@9 @5 @29 Member=UnitPrice)" Category="Contains" Bounds="2258.98752041871,1105.80467365576,185.576532150143,84.2749313560887" />
+    <Link Source="@32" Target="(@9 @5 @31 Member=ConfirmPassword)" Category="Contains" Bounds="2677.85840354334,1055.88532995601,87.2634851090493,34.2865504969034" />
+    <Link Source="@32" Target="(@9 @5 @31 Member=Email)" Category="Contains" Bounds="2644.82883835543,1055.88532995601,0.473383392851702,107.902887918032" />
+    <Link Source="@32" Target="(@9 @5 @31 Member=Password)" Category="Contains" Bounds="2656.44574083005,1055.88532995601,81.4075676862722,90.6548110463937" />
+    <Link Source="@32" Target="(@9 @5 @31 Member=UserName)" Category="Contains" Bounds="2688.77140174077,1017.87260265492,40.6580883182378,12.0127273010864" />
+    <Link Source="@35" Target="(@9 @5 @34 Member=CartSessionKey)" Category="Contains" Bounds="1598.0469861785,254.605636450055,50.4334452734183,272.751393874036" />
+    <Link Source="@35" Target="(@9 @5 @34 Member=storeDB)" Category="Contains" Bounds="1602.74238144296,334.094438754411,105.538871038722,193.26259156968" />
+    <Link Source="@35" Target="@45" Category="Contains" Bounds="1632.96802453069,486.352605411428,117.729444469103,41.0044249126633" />
+    <Link Source="@35" Target="@48" Category="Contains" Bounds="1603.70971679688,411.158233642578,128.816650390625,116.198822021484" />
+    <Link Source="@35" Target="@51" Category="Contains" Bounds="1093.70007324219,393.498870849609,471.700561523438,133.858184814453" />
+    <Link Source="@35" Target="@52" Category="Contains" Bounds="1536.86518090655,310.475244670224,55.45407910279,216.881785653867" />
+    <Link Source="@35" Target="@55" Category="Contains" Bounds="1105.53310080138,281.000615304275,465.543788906652,246.356415019816" />
+    <Link Source="@35" Target="@59" Category="Contains" Bounds="1338.64672106038,553.357030324091,238.26147488864,165.326808159051" />
+    <Link Source="@35" Target="@61" Category="Contains" Bounds="956.656626314554,309.502958350368,603.003563315706,217.854071973723" />
+    <Link Source="@35" Target="@72" Category="Contains" Bounds="1505.284638181,553.357030324091,80.5910595070886,107.262148666771" />
+    <Link Source="@35" Target="@74" Category="Contains" Bounds="1395.71464594242,553.357030324091,151.916182100575,41.1333599960537" />
+    <Link Source="@35" Target="@75" Category="Contains" Bounds="1321.47584844245,542.69014027654,217.247356111902,8.90481322361165" />
+    <Link Source="@35" Target="@76" Category="Contains" Bounds="1412.84065564002,226.806034293375,175.223452799283,300.550996030716" />
+    <Link Source="@35" Target="@78" Category="Contains" Bounds="1410.24904279013,383.490106510832,170.030029897878,143.866923813259" />
+    <Link Source="@37" Target="@54" Category="Contains" Bounds="1195.94227946085,700.383743888289,399.930710200131,125.380435750383" />
+    <Link Source="@37" Target="@56" Category="Contains" Bounds="923.504866048385,543.591014745396,220.798418507447,282.173164893276" />
+    <Link Source="@37" Target="@69" Category="Contains" Bounds="1054.54693979299,620.766237111179,93.9696387269119,204.997942527493" />
+    <Link Source="@37" Target="@77" Category="Contains" Bounds="1155.14087551705,631.830831574239,9.92322523502799,193.933348064433" />
+    <Link Source="@39" Target="(@9 @7 @38 Member=CartCount)" Category="Contains" Bounds="1574.55113031145,1215.97232597899,69.940872235584,104.336874074867" />
+    <Link Source="@39" Target="(@9 @7 @38 Member=CartTotal)" Category="Contains" Bounds="1539.89589386196,1215.97232597899,87.5087162526111,44.0905074358943" />
+    <Link Source="@39" Target="(@9 @7 @38 Member=DeleteId)" Category="Contains" Bounds="1671.66781427995,1215.97232597899,82.3760865729157,58.0068347706958" />
+    <Link Source="@39" Target="(@9 @7 @38 Member=ItemCount)" Category="Contains" Bounds="1616.80544628417,1215.97232597899,33.6498264762322,159.007643638077" />
+    <Link Source="@39" Target="(@9 @7 @38 Member=Message)" Category="Contains" Bounds="1659.63980391528,1215.97232597899,64.4610245647614,130.256279521956" />
+    <Link Source="@4" Target="(@9 @3 Type=HomeController)" Category="Contains" Bounds="847.611213125447,1123.1969668264,60.8165314545449,118.200053810716" />
+    <Link Source="@4" Target="@11" Category="Contains" Bounds="578.692891019269,590.559688829328,328.00717809458,506.637277997072" />
+    <Link Source="@4" Target="@20" Category="Contains" Bounds="874.109013204809,861.497568933818,38.8639752392024,235.699397892582" />
+    <Link Source="@4" Target="@37" Category="Contains" Bounds="926.580396762401,858.514451784222,210.478794162902,238.682515042178" />
+    <Link Source="@4" Target="@42" Category="Contains" Bounds="697.933595494037,1123.1969668264,202.88361656072,184.44843663817" />
+    <Link Source="@4" Target="@44" Category="Contains" Bounds="588.543833282771,974.482761549553,295.290452297511,122.714205276847" />
+    <Link Source="@40" Target="(@9 @7 Type=ShoppingCartViewModel Member=CartItems)" Category="Contains" Bounds="1360.82217698397,1219.17498163431,49.0970748326124,94.8508841971291" />
+    <Link Source="@40" Target="(@9 @7 Type=ShoppingCartViewModel Member=CartTotal)" Category="Contains" Bounds="1338.21099090432,1219.17498163431,59.794493930036,41.6957344321063" />
+    <Link Source="@42" Target="(@9 @3 @41 Member=(Name=Browse OverloadingParameters=[(@46 Namespace=System Type=String)]))" Category="Contains" Bounds="662.686129286177,1339.69961648931,12.8370648606492,114.95097783434" />
+    <Link Source="@42" Target="(@9 @3 @41 Member=(Name=Details @53))" Category="Contains" Bounds="582.767621419664,1320.6556680176,33.3556713810907,2.13996025410006" />
+    <Link Source="@42" Target="(@9 @3 @41 Member=Index)" Category="Contains" Bounds="591.437960847488,1339.69961648931,70.703370490288,61.9635202083041" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=(Name=Create OverloadingParameters=[@13]))" Category="Contains" Bounds="461.242350031703,907.679554202942,65.0624167068243,37.3494279917113" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=(Name=Delete @53))" Category="Contains" Bounds="538.718722832375,873.47278599368,8.65884500170216,71.556196200973" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=(Name=DeleteConfirmed @53))" Category="Contains" Bounds="556.498393557191,971.028982194653,39.2565709878149,67.6144547436473" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=(Name=Details @53))" Category="Contains" Bounds="432.890652900228,971.028982194653,70.0941478138347,19.8239258235629" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=(Name=Dispose OverloadingParameters=[(@46 Namespace=System Type=Boolean)]))" Category="Contains" Bounds="415.314239009204,950.838457968591,49.1364278854496,2.64386500509693" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=(Name=Edit @53))" Category="Contains" Bounds="485.736971297157,971.028982194653,53.1883246926334,68.9698393771013" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=(Name=Edit OverloadingParameters=[@13]))" Category="Contains" Bounds="592.768383648778,914.734777275274,102.109453111445,30.2942049193794" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=Create)" Category="Contains" Bounds="633.450666894653,958.49934268537,63.0347716058297,0.350876521949772" />
+    <Link Source="@44" Target="(@9 @3 @43 Member=Index)" Category="Contains" Bounds="562.400857722051,890.645241372884,56.2670532277323,54.3837408217688" />
+    <Link Source="@45" Target="@64" Category="CodeSchema_Calls" Bounds="1845.50485952663,463.786179994888,224.569905662045,5.42326785998159" />
+    <Link Source="@45" Target="@65" Category="CodeSchema_Calls" Bounds="1814.17778276209,483.392374554501,103.122704089479,75.9274848515928" />
+    <Link Source="@45" Target="@67" Category="CodeSchema_Calls" Bounds="1804.21380363066,483.392374554501,76.6376519624564,129.518141229783" />
+    <Link Source="@45" Target="@68" Category="CodeSchema_Calls" Bounds="1818.44040622272,293.403258567057,276.496750727708,163.989115987444" />
+    <Link Source="@45" Target="@70" Category="CodeSchema_Calls" Bounds="1833.46699999045,483.392374554501,64.936846600735,22.8493214201125" />
+    <Link Source="@45" Target="@71" Category="CodeSchema_Calls" Bounds="1844.18642106665,433.571316062236,92.9160575765031,24.3366368720219" />
+    <Link Source="@45" Target="@78" Category="CodeSchema_Calls" Bounds="1446.96201629469,379.931524996263,301.742468983052,78.0865040688632" />
+    <Link Source="@48" Target="@35" Category="CodeSchema_ReturnTypeLink" Bounds="1623.08288574219,405.129974365234,128.816650390625,116.198822021484">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@48" Target="@51" Category="CodeSchema_Calls" Bounds="1094.04135302862,384.486736589847,625.248015400595,7.17637583326388" />
+    <Link Source="@49" Target="@51" Category="CodeSchema_Calls" Bounds="947.565215254945,405.514773321518,90.1204945728826,291.402107830826" />
+    <Link Source="@49" Target="@59" Category="CodeSchema_Calls" Bounds="1019.14976928711,715.428410897768,231.358172735881,16.8657820366486" />
+    <Link Source="@51" Target="@35" Category="CodeSchema_ReturnTypeLink" Bounds="1074.60791015625,396.916564941406,455.92138671875,129.38037109375">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@51" Target="@52" Category="CodeSchema_Calls" Bounds="1085.04194578373,299.433618093234,391.63024092541,76.5337751384492" />
+    <Link Source="@51" Target="@78" Category="CodeSchema_Calls" Bounds="1085.04194578373,368.653815088682,231.936468431239,12.9853976884871" />
+    <Link Source="@54" Target="@45" Category="CodeSchema_Calls" Bounds="1655.06291225617,490.756009622727,127.14850226499,180.935394420228" />
+    <Link Source="@54" Target="@51" Category="CodeSchema_Calls" Bounds="1078.41569736475,400.94142763719,541.511201147508,270.749976405765" />
+    <Link Source="@55" Target="@78" Category="CodeSchema_Calls" Bounds="1113.60274513691,276.791066562987,225.249637242958,72.1405920986261" />
+    <Link Source="@56" Target="@51" Category="CodeSchema_Calls" Bounds="920.506110497976,403.349454701552,104.844971149811,107.153615733681" />
+    <Link Source="@56" Target="@55" Category="CodeSchema_Calls" Bounds="917.354187011719,283.368621826172,137.297912597656,227.134460449219" />
+    <Link Source="@56" Target="@75" Category="CodeSchema_Calls" Bounds="974.296197916257,529.126168192775,237.535862278243,20.0825045032731" />
+    <Link Source="@56" Target="@76" Category="CodeSchema_Calls" Bounds="927.971437451584,223.904044061679,445.00538445705,286.599026373554" />
+    <Link Source="@59" Target="@72" Category="CodeSchema_Calls" Bounds="1353.74443930871,696.521101248693,86.5561272838954,27.2935239466191" />
+    <Link Source="@59" Target="@74" Category="CodeSchema_Calls" Bounds="1315.23040800197,631.652762844009,19.2331310716172,92.1618623513031" />
+    <Link Source="@6" Target="@13" Category="Contains" Bounds="2324.22951849139,545.724901935288,155.66852527743,374.552543176404" />
+    <Link Source="@6" Target="@14" Category="Contains" Bounds="2276.12327608613,786.913717049777,38.9103883869416,133.363728061915" />
+    <Link Source="@6" Target="@16" Category="Contains" Bounds="2116.25994169412,653.056934920606,193.169143038894,267.220510191086" />
+    <Link Source="@6" Target="@18" Category="Contains" Bounds="2405.04294153394,905.61700426048,112.991381888013,15.6891048031431" />
+    <Link Source="@6" Target="@22" Category="Contains" Bounds="2338.84026993501,666.798356199292,390.235097936062,253.4790889124" />
+    <Link Source="@6" Target="@24" Category="Contains" Bounds="2072.84940632538,946.277445111692,206.748382652242,68.5142235854291" />
+    <Link Source="@6" Target="@26" Category="Contains" Bounds="2293.68614727755,280.222729657785,24.6399590496721,640.054715453907" />
+    <Link Source="@6" Target="@28" Category="Contains" Bounds="2405.78156270995,916.924243920405,477.742047656113,13.8350498825621" />
+    <Link Source="@6" Target="@30" Category="Contains" Bounds="2241.93488865751,946.277445111692,69.6825484152332,125.656449198547" />
+    <Link Source="@6" Target="@32" Category="Contains" Bounds="2357.48516984743,946.277445111692,240.097442313574,80.7392449235484" />
+    <Link Source="@6" Target="@35" Category="Contains" Bounds="1627.47828937843,557.653687655612,667.421332143939,362.62375745608" />
+    <Link Source="@60" Target="@58" Category="CodeSchema_Calls" Bounds="644.733740864122,309.019543454177,63.1169815936322,12.3381394998051" />
+    <Link Source="@60" Target="@62" Category="CodeSchema_Calls" Bounds="764.070981110472,313.805778392442,94.826527899699,86.8012494766083" />
+    <Link Source="@61" Target="@78" Category="CodeSchema_Calls" Bounds="964.284087305239,301.240926007329,352.779446511146,52.813905909029" />
+    <Link Source="@62" Target="@51" Category="CodeSchema_Calls" Bounds="939.573590750169,394.664866797414,55.3201991644619,12.0189994163813" />
+    <Link Source="@62" Target="@61" Category="CodeSchema_Calls" Bounds="883.08194935964,315.161159616289,23.541314103995,91.5227065975065" />
+    <Link Source="@63" Target="@62" Category="CodeSchema_Calls" Bounds="753.652729025074,434.252700208072,43.7872798317358,7.75144978759687" />
+    <Link Source="@66" Target="@14" Category="References" Bounds="2289.40569398176,662.341840154977,84.815567191486,83.6137080236658" />
+    <Link Source="@69" Target="@51" Category="CodeSchema_Calls" Bounds="1044.41345302528,405.916550586088,0.395613912382714,180.6682882811" />
+    <Link Source="@69" Target="@75" Category="CodeSchema_Calls" Bounds="1100.84135527365,565.114208059405,111.144200017312,22.9210650601684" />
+    <Link Source="@72" Target="@78" Category="CodeSchema_Calls" Bounds="1394.97857477371,386.241189295783,90.9340115362488,281.57333589953" />
+    <Link Source="@73" Target="@22" Category="References" Bounds="2599.18018461316,653.054032862366,112.119034878694,10.2832234226536" />
+    <Link Source="@74" Target="@78" Category="CodeSchema_Calls" Bounds="1341.61328135303,386.502196302692,42.0389865618756,210.340368246667" />
+    <Link Source="@75" Target="@78" Category="CodeSchema_Calls" Bounds="1274.98279486442,385.25160113814,99.8302985582045,155.590963411219" />
+    <Link Source="@76" Target="@78" Category="CodeSchema_Calls" Bounds="1389.7751712792,219.030921438977,9.9115876976723,123.674578353414" />
+    <Link Source="@77" Target="@51" Category="CodeSchema_Calls" Bounds="1055.64670253083,404.838301261857,103.532632127497,192.004289070174" />
+    <Link Source="@77" Target="@74" Category="CodeSchema_Calls" Bounds="1201.10586669922,609.842574120936,73.7492123692864,1.10021239834168E-05" />
+    <Link Source="@77" Target="@76" Category="CodeSchema_Calls" Bounds="1173.73978011889,226.81345180433,214.918049594612,370.029138527701" />
+    <Link Source="@8" Target="@39" Category="Contains" Bounds="1535.17708938735,1105.68074957866,95.3135978256826,78.5670218664886" />
+    <Link Source="@8" Target="@40" Category="Contains" Bounds="1434.45913603055,1105.68074957866,73.1767896104884,80.8225312946015" />
+    <Link Source="ThisIsThe" Target="@2" Bounds="1580.80357057057,823.089763935083,113.727481363919,77.0373603958133" />
+  </Links>
+  <Categories>
+    <Category Id="Category1" Label="Category 1" Background="#FFFF7F7F" IsTag="True" />
+    <Category Id="Category2" Label="Category 2" Background="#FF7DC633" IsTag="True" />
+    <Category Id="Category3" Label="Category 3" Background="#FF7FC9FF" IsTag="True" />
+    <Category Id="Category5" Label="Category 5" Background="#FFA17FFF" IsTag="True" />
+    <Category Id="Category6" Label="Category 6" Background="#FF7F0037" IsTag="True" />
+    <Category Id="Category7" Label="Category 7" Background="#FF007F0E" IsTag="True" />
+    <Category Id="Category8" Label="Category 8" Background="#FF008080" IsTag="True" />
+    <Category Id="Category9" Label="Category 9" Background="#FF004A7F" IsTag="True" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_Property" Label="Property" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Properties" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="Is Protected" Description="Flag to indicate the scope is Protected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="2" Id="(Namespace=MusicStoreMVC3)" />
+    <Alias n="3" Id="Namespace=MusicStoreMVC3.Controllers" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Id="Namespace=MusicStoreMVC3.Models" />
+    <Alias n="6" Id="(@5)" />
+    <Alias n="7" Id="Namespace=MusicStoreMVC3.ViewModels" />
+    <Alias n="8" Id="(@7)" />
+    <Alias n="9" Uri="Assembly=$(de410089-2197-4f08-9c9b-991be71852bf.OutputPathUri)" />
+    <Alias n="10" Id="Type=AccountController" />
+    <Alias n="11" Id="(@9 @3 @10)" />
+    <Alias n="12" Id="Type=Album" />
+    <Alias n="13" Id="(@9 @5 @12)" />
+    <Alias n="14" Id="(@9 @5 Type=Artist)" />
+    <Alias n="15" Id="Type=Cart" />
+    <Alias n="16" Id="(@9 @5 @15)" />
+    <Alias n="17" Id="Type=ChangePasswordModel" />
+    <Alias n="18" Id="(@9 @5 @17)" />
+    <Alias n="19" Id="Type=CheckOutController" />
+    <Alias n="20" Id="(@9 @3 @19)" />
+    <Alias n="21" Id="Type=Genre" />
+    <Alias n="22" Id="(@9 @5 @21)" />
+    <Alias n="23" Id="Type=LogOnModel" />
+    <Alias n="24" Id="(@9 @5 @23)" />
+    <Alias n="25" Id="Type=MusicStoreEntities" />
+    <Alias n="26" Id="(@9 @5 @25)" />
+    <Alias n="27" Id="Type=Order" />
+    <Alias n="28" Id="(@9 @5 @27)" />
+    <Alias n="29" Id="Type=OrderDetail" />
+    <Alias n="30" Id="(@9 @5 @29)" />
+    <Alias n="31" Id="Type=RegisterModel" />
+    <Alias n="32" Id="(@9 @5 @31)" />
+    <Alias n="34" Id="Type=ShoppingCart" />
+    <Alias n="35" Id="(@9 @5 @34)" />
+    <Alias n="36" Id="Type=ShoppingCartController" />
+    <Alias n="37" Id="(@9 @3 @36)" />
+    <Alias n="38" Id="Type=ShoppingCartRemoveViewModel" />
+    <Alias n="39" Id="(@9 @7 @38)" />
+    <Alias n="40" Id="(@9 @7 Type=ShoppingCartViewModel)" />
+    <Alias n="41" Id="Type=StoreController" />
+    <Alias n="42" Id="(@9 @3 @41)" />
+    <Alias n="43" Id="Type=StoreManagerController" />
+    <Alias n="44" Id="(@9 @3 @43)" />
+    <Alias n="45" Id="(@9 @5 @34 Member=(Name=AddToCart OverloadingParameters=[@13]))" />
+    <Alias n="46" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="47" Uri="Assembly=$(VsSolutionUri)/packages/Microsoft.AspNet.Mvc.3.0.20105.1/lib/net40/System.Web.Mvc.dll" />
+    <Alias n="48" Id="(@9 @5 @34 Member=(Name=GetCart OverloadingParameters=[(@47 Namespace=System.Web.Mvc Type=Controller)]))" />
+    <Alias n="49" Id="(@9 @3 @19 Member=(Name=AddressAndPayment OverloadingParameters=[(@47 Namespace=System.Web.Mvc Type=FormCollection)]))" />
+    <Alias n="50" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Web.dll" />
+    <Alias n="51" Id="(@9 @5 @34 Member=(Name=GetCart OverloadingParameters=[(@50 Namespace=System.Web Type=HttpContextBase)]))" />
+    <Alias n="52" Id="(@9 @5 @34 Member=(Name=GetCartId OverloadingParameters=[(@50 Namespace=System.Web Type=HttpContextBase)]))" />
+    <Alias n="53" Id="OverloadingParameters=[(@46 Namespace=System Type=Int32)]" />
+    <Alias n="54" Id="(@9 @3 @36 Member=(Name=AddToCart @53))" />
+    <Alias n="55" Id="(@9 @5 @34 Member=(Name=RemoveFromCart @53))" />
+    <Alias n="56" Id="(@9 @3 @36 Member=(Name=RemoveFromCart @53))" />
+    <Alias n="57" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Web.ApplicationServices.dll" />
+    <Alias n="58" Id="(@9 @3 @10 Member=(Name=ErrorCodeToString OverloadingParameters=[(@57 Namespace=System.Web.Security Type=MembershipCreateStatus)]))" />
+    <Alias n="59" Id="(@9 @5 @34 Member=(Name=CreateOrder OverloadingParameters=[@28]))" />
+    <Alias n="60" Id="(@9 @3 @10 Member=(Name=Register OverloadingParameters=[@32]))" />
+    <Alias n="61" Id="(@9 @5 @34 Member=(Name=MigrateCart OverloadingParameters=[(@46 Namespace=System Type=String)]))" />
+    <Alias n="62" Id="(@9 @3 @10 Member=(Name=MigrateShoppingCart OverloadingParameters=[(@46 Namespace=System Type=String)]))" />
+    <Alias n="63" Id="(@9 @3 @10 Member=(Name=LogOn OverloadingParameters=[@24,(@46 Namespace=System Type=String)]))" />
+    <Alias n="64" Id="(@9 @5 @12 Member=AlbumId)" />
+    <Alias n="65" Id="(@9 @5 @15 Member=AlbumId)" />
+    <Alias n="66" Id="(@9 @5 @12 Member=Artist)" />
+    <Alias n="67" Id="(@9 @5 @15 Member=CartId)" />
+    <Alias n="68" Id="(@9 @5 @25 Member=Carts)" />
+    <Alias n="69" Id="(@9 @3 @36 Member=CartSummery)" />
+    <Alias n="70" Id="(@9 @5 @15 Member=Count)" />
+    <Alias n="71" Id="(@9 @5 @15 Member=DateCreated)" />
+    <Alias n="72" Id="(@9 @5 @34 Member=EmptyCart)" />
+    <Alias n="73" Id="(@9 @5 @12 Member=Genre)" />
+    <Alias n="74" Id="(@9 @5 @34 Member=GetCartItems)" />
+    <Alias n="75" Id="(@9 @5 @34 Member=GetCount)" />
+    <Alias n="76" Id="(@9 @5 @34 Member=GetTotal)" />
+    <Alias n="77" Id="(@9 @3 @36 Member=Index)" />
+    <Alias n="78" Id="(@9 @5 @34 Member=ShoppingCartId)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 5" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FFA17FFF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 8" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category8')" />
+      <Setter Property="Background" Value="#FF008080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 9" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category9')" />
+      <Setter Property="Background" Value="#FF0E6099" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 10" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category10')" />
+      <Setter Property="Background" Value="#FF7F006E" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 7" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category7')" />
+      <Setter Property="Background" Value="#FF5AF464" />
+      <Setter Property="Stroke" Value="#FF410606" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFFC0202" />
+      <Setter Property="Stroke" Value="#FF310303" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 2" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF055112" />
+      <Setter Property="Stroke" Value="#FF13FC06" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 3" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category3')" />
+      <Setter Property="Background" Value="#FF1178AC" />
+      <Setter Property="Stroke" Value="#FF1600FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFF9F309" />
+      <Setter Property="Stroke" Value="#FF6E5007" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 6" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category6')" />
+      <Setter Property="Background" Value="#FF7F0037" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="de410089-2197-4f08-9c9b-991be71852bf.OutputPath" Value="C:\Users\MBM\Documents\MVC 4 Book\MusicStoreMVC3\MusicStoreMVC3\bin\MusicStoreMVC3.dll" />
+    <Path Id="de410089-2197-4f08-9c9b-991be71852bf.OutputPathUri" Value="file:///C:/Users/MBM/Documents/MVC 4 Book/MusicStoreMVC3/MusicStoreMVC3/bin/MusicStoreMVC3.dll" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolution" Value="C:\Users\MBM\Documents\MVC 4 Book\MusicStoreMVC3" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/MBM/Documents/MVC 4 Book/MusicStoreMVC3" />
+  </Paths>
+</DirectedGraph>

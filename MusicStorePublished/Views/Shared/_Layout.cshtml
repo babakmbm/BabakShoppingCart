@@ -2,22 +2,33 @@
 <html>
 <head>
     <title>@ViewBag.Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
     <script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div id="header">
-        <h1>Music Store</h1>
+        <a href="/Home" id="title">
+            <img src="../../Content/Images/ecMd47jki.png" />
+        </a>
         <ul id="navlist">
-            <li class="first"><a href="/" id="current"><img style="width:60px;" src="../../Content/Images/carry-home-brown-icon.png" /></a></li>
-            <li class="first"><a href="/store/"><img style="width:40px;" src="../../Content/Images/Ecommerce-Shoping-bag-icon.png" /></a></li>
-            <li><a href="/ShoppingCart/"><img style="width:43px;" src="../../Content/Images/Shoppingcart-icon.png" /><span style="color:#7D8852; padding: 2px 0px; font-size:15px; border-radius:5px;">@{Html.RenderAction("CartSummary", "ShoppingCart");}</span></a></li>
-            <li class="first"><a href="/StoreManager/"><img style="width:45px;" src="../../Content/Images/admin-icon.png" /></a></li>
+            <li class="first"><a href="/" id="current"><i class="fa fa-home fa-3x"></i></a></li>
+            <li class="first"><a href="/store/"><i class="fa fa-cart-plus fa-3x"></i></a></li>
+            <li><a href="/ShoppingCart/"><i class="fa fa-shopping-cart fa-3x"></i><span style="color:#7D8852; padding: 2px 0px; font-size:15px; border-radius:5px;">@{Html.RenderAction("CartSummary", "ShoppingCart");}</span></a></li>
+            <li class="first"><a href="/StoreManager/"><i class="fa fa-user fa-3x"></i></a></li>
         </ul>
     </div>
-
+    
+    @*
     @{Html.RenderAction("GenreMenu", "Store");}
+    *@
 
     <div id="main">
         @RenderBody()

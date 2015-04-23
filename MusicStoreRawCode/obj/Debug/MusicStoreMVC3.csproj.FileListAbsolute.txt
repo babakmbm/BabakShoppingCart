@@ -19,3 +19,4 @@ C:\Users\MBM\Documents\MVC 4 Book\MusicStoreMVC3\MusicStoreMVC3\bin\System.Web.W
 C:\Users\MBM\Documents\MVC 4 Book\MusicStoreMVC3\MusicStoreMVC3\obj\Debug\MusicStoreMVC3.csprojResolveAssemblyReference.cache
 C:\Users\MBM\Documents\MVC 4 Book\MusicStoreMVC3\MusicStoreMVC3\obj\Debug\MusicStoreMVC3.dll
 C:\Users\MBM\Documents\MVC 4 Book\MusicStoreMVC3\MusicStoreMVC3\obj\Debug\MusicStoreMVC3.pdb
+C:\Users\MBM\Documents\MVC 4 Book\MusicStoreMVC3\MusicStoreMVC3\bin\System.Web.Routing.dll

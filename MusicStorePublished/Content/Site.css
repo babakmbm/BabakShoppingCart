@@ -1,5 +1,10 @@
-﻿*
+﻿@font-face 
 {
+    font-family: DastNevis;
+    src: url('/Content/Fonts/danstevis.ttf');
+}
+
+*{
 	margin: 0px;
 	padding: 0px;
 	border: none;
@@ -7,11 +12,27 @@
 
 body
 {
+    background: #000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	background-color: #FBF9EF;
-	padding: 0px 6%;
-}
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #4D4D4B 0%, #000000 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #4D4D4B 0%, #000000 100%);
+
+    /* Opera */ 
+    background-image: -o-radial-gradient(center top, ellipse farthest-corner, #4D4D4B 0%, #000000 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center top, 0, center top, 560, color-stop(0, #4D4D4B), color-stop(1, #000000));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #4D4D4B 0%, #000000 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse farthest-corner at center top, #4D4D4B 0%, #000000 100%);
+    }
 
 #container
 {
@@ -20,25 +41,21 @@ body
 
 #header
 {
-	float: left;
-	width: 100%;
-	border-bottom: 2px dotted #5D5A53;
-	margin-bottom: 10px;
+	width: 1000px;
+    margin:0 auto;
+    margin-top:10px;
+    clear:both;
 }
 
-#header h1
+#header a:hover 
 {
-	font-size: 18px;
-	float: left;
-	background: url(/content/Images/logo.png) no-repeat;
-	padding: 45px 0px 5px 0px;
+    border:0;
 }
 
-#promotion
+#title img 
 {
-	height: 300px; 
-	width: 700px; 
-	background: url(/content/Images/home-showcase.png) no-repeat;
+    width:1000px;
+    height:350px;
 }
 
 ul li a
@@ -48,8 +65,10 @@ ul li a
 
 #main
 {
-	padding: 0 0 15px 10px;
-	float: left;
+    
+    margin:0 auto;
+    width:1000px;
+	clear:both;
 }
 
 ul
@@ -127,9 +146,17 @@ ul#album-list li a span
 }
 
 /******************** Top Navigation ************************/
+#navlist 
+{
+    margin-top:15px;
+}
+
 ul#navlist
 {
-	float: right;
+	width: 260px;
+  /* float: right; */
+    margin: 0 auto;
+    margin-top:-50px;
 }
 
 ul#navlist li
@@ -139,7 +166,6 @@ ul#navlist li
 
 ul#navlist li a
 {
-	border-left: 1px dotted #8A8575;
 	padding: 10px;
 	margin-top: 10px;
 	color: #8A8575;
@@ -326,3 +352,123 @@ tr:hover
 {
 	background-color: #fff;
 }
+
+/*Slider*/
+#mcis {
+	 display: none;
+	}
+	
+	#sliderFrame {
+	 position: relative;
+	 width: 1000px;
+	 margin: 0 auto;
+	}
+	
+	#ribbon {
+	 width: 100px;
+     height: 145px;
+     position: absolute;
+     top: 0;
+     left:0;
+	 opacity:1;
+	 background: url(/Content/Images/medal.png) no-repeat;
+	 z-index: 7;
+	}
+	
+	#slider {
+	 width: 1000px;
+	 height: 400px;
+	 background: #fff url(http://bayanbox.ir/view/7338039479269732183/loading.gif) no-repeat 50% 50%;
+	 position: relative;
+	 margin: 0 auto;
+	 /*box-shadow: 0px 1px 5px #999999;*/
+	 margin-bottom:10px;
+	}
+	
+	#slider img {
+	 position: absolute;
+	 border: none;
+	 display: none;
+	}
+	
+	#slider a.imgLink {
+	 z-index: 2;
+	 display: none;
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 border: 0;
+	 padding: 0;
+	 margin: 0;
+	 width: 100%;
+	 height: 100%;
+	}
+	
+	div.mc-caption-bg, div.mc-caption-bg2 {
+	 position: absolute;
+	 width: 100%;
+	 height: auto;
+	 padding: 0;
+	 left: 0px;
+	 bottom: 0px;
+	 z-index: 3;
+	 overflow: hidden;
+	 font-size: 0;
+	}
+	
+	div.mc-caption-bg {
+	 background-color: black;
+	}
+	
+	div.mc-caption {
+	 font: bold 16px DastNevis;
+	 color: #fff;
+	 z-index: 4;
+	 padding: 10px 0;
+	 text-align: center;
+	}
+	
+	div.mc-caption a {
+	 color: #FB0;
+	}
+	
+	div.mc-caption a:hover {
+	 color: #DA0;
+	}
+	
+	div.navBulletsWrapper {
+     top: 370px;
+     /* bottom: 45px; */
+     left: 0;
+     width: 200px;
+     background: none;
+     padding-left: 20px;
+     position: relative;
+     z-index: 5;
+     cursor: pointer;
+	}
+	
+	div.navBulletsWrapper div {
+	 width: 11px;
+	 height: 11px;
+	 background: transparent url(http://bayanbox.ir/view/6193885459633549308/bullet.png) no-repeat 0 0;
+	 float: left;
+	 overflow: hidden;
+	 vertical-align: middle;
+	 cursor: pointer;
+	 margin-right: 11px;
+	 _position: relative;
+	}
+	
+	div.navBulletsWrapper div.active {
+	 background-position: 0 -11px;
+	}
+	
+	#slider {
+	 transform: translate3d(0,0,0);
+	 -ms-transform: translate3d(0,0,0);
+	 -moz-transform: translate3d(0,0,0);
+	 -o-transform: translate3d(0,0,0);
+	 -webkit-transform: translate3d(0,0,0);
+	}
+	/*Slider End*/

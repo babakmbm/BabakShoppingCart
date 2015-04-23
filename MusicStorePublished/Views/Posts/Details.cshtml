@@ -1,0 +1,10 @@
+﻿@model Blog.Models.Post
+
+@{
+    ViewBag.Title = Model.Title;
+    bool isAdmin = ViewBag.IsAdmin ?? false;
+}
+
+@Html.Partial("PostPartial")
+<a href="@Url.Content("~/Posts/CreateComment/"+Model.ID)">نظر خود را وارد کنید</a>
+

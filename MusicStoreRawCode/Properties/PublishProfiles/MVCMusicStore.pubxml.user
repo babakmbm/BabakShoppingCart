@@ -17,7 +17,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/21/2013 01:02:18</publishTime>
     </File>
     <File Include="bin/MusicStoreMVC3.dll">
-      <publishTime>04/14/2014 00:43:35</publishTime>
+      <publishTime>04/24/2015 01:01:17</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>10/21/2013 01:02:19</publishTime>
@@ -43,6 +43,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Web.WebPages.Razor.dll">
       <publishTime>10/21/2013 01:02:19</publishTime>
     </File>
+    <File Include="Content/Fonts/danstevis.ttf">
+      <publishTime>04/23/2015 21:47:03</publishTime>
+    </File>
     <File Include="Content/Images/3-Gray-Home-icon.png">
       <publishTime>10/27/2013 19:07:14</publishTime>
     </File>
@@ -58,6 +61,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Images/administrator-icon.png">
       <publishTime>10/27/2013 19:18:55</publishTime>
     </File>
+    <File Include="Content/Images/banner-154179_1280.png">
+      <publishTime>04/24/2015 00:56:56</publishTime>
+    </File>
+    <File Include="Content/Images/banner-gold-label-red-ribbon-title.png">
+      <publishTime>04/23/2015 23:46:10</publishTime>
+    </File>
+    <File Include="Content/Images/blankRibbon-left.png">
+      <publishTime>04/23/2015 20:02:23</publishTime>
+    </File>
     <File Include="Content/Images/blue-home-icon.png">
       <publishTime>10/27/2013 19:07:14</publishTime>
     </File>
@@ -72,6 +84,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/Images/cart-icon.png">
       <publishTime>10/27/2013 18:50:46</publishTime>
+    </File>
+    <File Include="Content/Images/dark-red-ribbon-hi.png">
+      <publishTime>04/23/2015 21:35:20</publishTime>
+    </File>
+    <File Include="Content/Images/ecMd47jki.png">
+      <publishTime>04/24/2015 00:12:11</publishTime>
     </File>
     <File Include="Content/Images/Ecommerce-Shoping-bag-icon.png">
       <publishTime>10/27/2013 18:50:46</publishTime>
@@ -103,6 +121,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Images/Folder-Home-icon.png">
       <publishTime>10/27/2013 19:07:14</publishTime>
     </File>
+    <File Include="Content/Images/Gold-Ribbon2.jpg">
+      <publishTime>04/23/2015 21:35:15</publishTime>
+    </File>
+    <File Include="Content/Images/Heart-Ribbon.png">
+      <publishTime>04/23/2015 21:33:54</publishTime>
+    </File>
     <File Include="Content/Images/Home-alt-icon.png">
       <publishTime>10/27/2013 19:07:14</publishTime>
     </File>
@@ -133,8 +157,35 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Images/logo.png">
       <publishTime>10/23/2013 00:08:32</publishTime>
     </File>
+    <File Include="Content/Images/music-ribbon.png">
+      <publishTime>04/23/2015 20:05:37</publishTime>
+    </File>
     <File Include="Content/Images/placeholder.gif">
       <publishTime>10/23/2013 00:08:32</publishTime>
+    </File>
+    <File Include="Content/Images/Red_and_Gold_Banner_PNG_Clipart_Picture.png">
+      <publishTime>04/23/2015 23:45:36</publishTime>
+    </File>
+    <File Include="Content/Images/Red_and_Gold_Transparent_Rosette_Ribbon_PNG_Clipart.png">
+      <publishTime>04/23/2015 23:50:44</publishTime>
+    </File>
+    <File Include="Content/Images/red_ribbon_by_ktryon-d5w7toa.png">
+      <publishTime>04/23/2015 20:05:32</publishTime>
+    </File>
+    <File Include="Content/Images/ribbon-bottom.png">
+      <publishTime>04/23/2015 20:14:24</publishTime>
+    </File>
+    <File Include="Content/Images/ribbon.png">
+      <publishTime>04/23/2015 20:03:19</publishTime>
+    </File>
+    <File Include="Content/Images/RibbonB %281%29.png">
+      <publishTime>04/23/2015 21:15:48</publishTime>
+    </File>
+    <File Include="Content/Images/RibbonB.png">
+      <publishTime>04/23/2015 21:10:24</publishTime>
+    </File>
+    <File Include="Content/Images/ribbon_frame_gold_red.png">
+      <publishTime>04/23/2015 23:46:54</publishTime>
     </File>
     <File Include="Content/Images/shop-cart-icon %281%29.png">
       <publishTime>10/27/2013 18:50:46</publishTime>
@@ -242,7 +293,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/27/2013 18:50:46</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>11/18/2013 00:56:28</publishTime>
+      <publishTime>04/24/2015 00:53:05</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/5e916823-072e-4892-a3a7-ba9d23af42c8-ServicePic.jpg">
+      <publishTime>04/23/2015 20:50:14</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/Classical-Music-Wallpaper.jpg">
+      <publishTime>04/23/2015 20:56:08</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/dudamel-wild49754818.jpg">
+      <publishTime>04/23/2015 20:56:01</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/gustavo_dudamdel.jpg">
+      <publishTime>04/23/2015 20:55:53</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/header_ribbon_tail.png">
+      <publishTime>04/23/2015 19:00:11</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/IMG_B37DE5-EE0DA9-7CAD01-02BFF0-2B33EA-E687C9.jpg">
+      <publishTime>04/23/2015 20:55:45</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/Live-music-taskforce.jpg">
+      <publishTime>04/23/2015 20:55:37</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/medal.png">
+      <publishTime>04/24/2015 00:02:51</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/music %281%29.jpg">
+      <publishTime>04/23/2015 20:53:54</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/music.jpg">
+      <publishTime>04/23/2015 18:46:01</publishTime>
+    </File>
+    <File Include="Content/Slider/Images/pennant-33401_640.png">
+      <publishTime>04/23/2015 19:00:09</publishTime>
+    </File>
+    <File Include="Content/Slider/js-image-slider.js">
+      <publishTime>04/23/2015 17:58:24</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
       <publishTime>10/21/2013 01:02:20</publishTime>
@@ -482,7 +569,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/05/2013 00:19:03</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/16/2014 12:07:01</publishTime>
+      <publishTime>04/24/2015 00:54:36</publishTime>
     </File>
     <File Include="Views/Home/NoResult.cshtml">
       <publishTime>02/15/2014 19:00:45</publishTime>
@@ -494,7 +581,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/05/2013 00:23:01</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/15/2014 18:36:10</publishTime>
+      <publishTime>04/24/2015 00:41:06</publishTime>
     </File>
     <File Include="Views/ShoppingCart/CartSummary.cshtml">
       <publishTime>11/07/2013 16:46:38</publishTime>
@@ -536,7 +623,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/21/2013 01:02:17</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/14/2014 00:43:35</publishTime>
+      <publishTime>04/24/2015 01:01:19</publishTime>
     </File>
   </ItemGroup>
 </Project>
